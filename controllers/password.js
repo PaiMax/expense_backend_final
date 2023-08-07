@@ -36,7 +36,7 @@ exports.forgotPassword=(req,res,next)=>{
         sender,
         to:receivers,
         subject:'forgot password',
-        textContent:`http://localhost:3000/password/resetpassword/{{params.link}}`,
+        textContent:`http://3.88.226.21/password/resetpassword/{{params.link}}`,
         params:{ 
             link:uuid
         }

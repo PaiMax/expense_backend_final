@@ -46,6 +46,11 @@ app.use('/expense',expenseRoutes);
 
 app.use('/purchase',purchaseRoutes);
 
+
+app.use((req,res)=>{
+    res.sendFile(path.join(__dirname,`public/${req.url}`));
+})
+
 user.hasMany(expense,{constraints: true,onDelete:'CASCADE'});
 expense.belongsTo(user);
 

@@ -8,3 +8,7 @@
 ::1 - - [06/Aug/2023:10:48:06 +0000] "GET /expense/getexpense?page=1&pageSize=5 HTTP/1.1" 304 - "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188"
 ::1 - - [06/Aug/2023:10:48:15 +0000] "OPTIONS /expense/postexpense HTTP/1.1" 204 0 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188"
 ::1 - - [06/Aug/2023:10:48:15 +0000] "POST /expense/postexpense HTTP/1.1" 200 60 "http://127.0.0.1:5501/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188"
+::1 - - [07/Aug/2023:15:09:06 +0000] "GET / HTTP/1.1" 200 2682 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::1 - - [07/Aug/2023:15:09:07 +0000] "GET /login.js HTTP/1.1" 200 2682 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::1 - - [07/Aug/2023:15:09:07 +0000] "GET /light-blue.jpg HTTP/1.1" 200 2682 "http://3.88.226.21/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+::1 - - [07/Aug/2023:15:09:07 +0000] "GET /favicon.ico HTTP/1.1" 200 2682 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
